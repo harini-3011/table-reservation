@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    
+  }
+  
+  .bg{
+    width: 100%; 
+    height: 90vh;
+    
+  }
+  
+  .form-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    width:80%;
+    height:80%;
+    text-align: center;
+}
+  
+ input{
+    text-align: center;
+    width:50%;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+label{
+  font-size: 20px;
+  
+}
+
+h1{
+    text-align: center;
+    color:rgba(244,206,20,255);
+}
+.field
+{
+  padding:10px;
+}
+input:focus:invalid
+{
+  border:1px solid red;
+}
+.button
+{
+  border-radius: 10px;
+  width:150px;
+  padding:10px;
+  background-color: rgba(73,94,87,255);
+  color:rgba(244,206,20,255);
+  cursor: pointer;
+}
+
+@media  screen and (max-width:600px) {
+  input
+  {
+    width:90%;
+  }
+};
+
+   
